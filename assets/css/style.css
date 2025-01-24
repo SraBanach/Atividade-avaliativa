@@ -1,0 +1,126 @@
+*{ 
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #fed4e0;
+}
+
+header nav{ 
+    background-color: #fed4e0;
+    padding:30px 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.logo{ 
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+h1{
+    color: #000000;
+
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.menu li a{ 
+    color:black;
+
+    /* border: 1px solid black; */
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.menu :hover{
+    background-color: #e4a7b7;
+    color: black;
+    transition: 0.3s;
+}
+/* .fotoperfil{
+    display: flex;
+    width: 1080px;
+    height: 505px;
+    
+} */
+
+.sobre{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.fotosobre{
+    width: 500px;
+    height: 500px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+.textosobre{ 
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+h3 { 
+    font-size: 43px;
+}
+.txt{ 
+    margin-top: 30px;
+}
+
+.fotobanner{
+    width: 1620px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.fotobanner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fototrabalhos{ 
+    max-width: 280px;
+    max-height: 300px;
+    border-radius: 20px;
+    height: 95%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#trabalhos figure{ 
+    background-color:#e4a7b7;
+    padding: 15px 0;
+    max-width: 400px;
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    text-align: center;
+
+
+}
+#trabalhos figcaption{ 
+    padding: 0 10%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.row{
+    margin-top: 30px;
+    gap:142px;
+}
