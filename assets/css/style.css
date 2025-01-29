@@ -85,7 +85,7 @@ h3 {
 .fotobanner{
     width: 1620px;
     height: 400px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .fotobanner img{
@@ -123,4 +123,54 @@ h3 {
 .row{
     margin-top: 30px;
     gap:142px;
+}
+
+.form-container h3{
+    font-size: 30px;
+    margin-left: 140px;
+    margin-top: 20px;
+} 
+
+.form-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
+#nome{
+    width: 70%;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 140px;
+}
+#telefone{
+    width: 47%;
+    border-radius: 10px;
+    margin-left: 140px;
+}
+#idade{ 
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+
+textarea{ 
+    width: 70%;
+    margin-left: 140px;
+    border-radius: 20px;
+    border-style: inset;
+}
+
+.mapa iframe{
+    margin-top: 20px;
+    width: 75%;
+    height: 350px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: #e4a7b7;
+}
+.footer-container div{
+    margin-left: 140px;
 }
